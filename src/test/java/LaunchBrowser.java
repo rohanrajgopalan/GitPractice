@@ -24,6 +24,7 @@ public class LaunchBrowser {
 	
 	@Test
 	public void login() {
+		System.out.println("starting test....");
 		driver.findElement(By.id("identifierId")).sendKeys("abc@gmail.com");	
 	}
 	
