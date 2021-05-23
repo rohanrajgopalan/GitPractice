@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class LaunchBrowser {
+public class LaunchBrowserTest {
 
 	public static WebDriver driver;
 	
@@ -24,7 +24,7 @@ public class LaunchBrowser {
 	
 	@Test
 	public void login() {
-		
+		System.out.println("login test");
 		driver.findElement(By.id("identifierId")).sendKeys("abc@gmail.com");	
 	}
 	
